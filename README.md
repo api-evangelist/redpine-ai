@@ -1,4 +1,4 @@
-# redpine-ai
+# Redpine
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-redpine-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://redpine.ai/
+Redpine provides a licensed knowledge layer that gives AI builders and autonomous agents compliant access to premium, non‑public data across medicine, chemistry, and materials science. By offering full‑text peer‑reviewed papers and curated datasets, Redpine enables model training with high‑quality, licensed sources while ensuring compliance and data provenance.
+
+**Areas:** AI · Data · Licensing · Science · Knowledge
+
+## Redpine on APIs.io
+
+Everything profiled for Redpine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/redpine-ai/](https://apis.io/providers/redpine-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Redpine Search API](https://apis.io/apis/redpine-ai/redpine-ai-search-api/) — The search API from Redpine — 4 operation(s) for search.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Redpine Agentic Access](https://apis.io/agentic-access/redpine-ai/redpine-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AssistedSearchRequest](https://apis.io/schemas/redpine-ai/redpine-ai-assisted-search-request/)
+- [AssistedSearchResponse](https://apis.io/schemas/redpine-ai/redpine-ai-assisted-search-response/)
+- [SearchCollectionsResponse](https://apis.io/schemas/redpine-ai/redpine-ai-search-collections-response/)
+- [SearchRequest](https://apis.io/schemas/redpine-ai/redpine-ai-search-request/)
+- [SearchResponse](https://apis.io/schemas/redpine-ai/redpine-ai-search-response/)
+- [SearchResultsPreviewResponse](https://apis.io/schemas/redpine-ai/redpine-ai-search-results-preview-response/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Redpine API Rules](https://apis.io/rules/redpine-ai/redpine-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Redpine Domain Security](https://apis.io/security/redpine-ai/redpine-ai-domain-security/)
+- [Redpine Trust Center](https://apis.io/security/redpine-ai/redpine-ai-trust-center/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Redpine Rate Limits](https://apis.io/rate-limits/redpine-ai/redpine-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://redpine.ai/)
+- [Documentation](https://docs.redpine.ai/)
+- [Getting started](https://docs.redpine.ai/agent-get-started)
+- [API reference](https://docs.redpine.ai/llms.txt)
+- [Pricing](https://app.redpine.ai?utm_source=website)
+- [Support](https://www.redpine.ai/contact)
+- [Changelog](https://docs.redpine.ai/docs/changelog)
+- [Compliance](https://trust.redpine.ai/)
+
+## API Evangelist rating
+
+**Kin Score 47.4** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 47.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 40.0 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 21.3 |
+
+**Agent readiness 50.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/redpine-ai/](https://apis.io/providers/redpine-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Redpine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/redpine-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
